@@ -1,4 +1,5 @@
 import PostCreate from './components/post-create';
+import PostList from './components/post-list';
 
 function App() {
   return (
@@ -8,6 +9,11 @@ function App() {
           Blog App
         </h1>
         <PostCreate />
+        <br />
+        <h2 className='text-2xl font-bold text-gray-900 text-center mb-8'>
+          Posts
+        </h2>
+        <PostList />
       </div>
     </div>
   );
